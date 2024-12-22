@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="styles/style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <nav>
+        <h1>My Calculator</h1>
+        <img src="images\Calculator_icon.webp" alt="rounded small picture of an icon calculator" >
+    </nav>
+    <form id="calculation">
+        <table>
+            <tr>
+                <td colspan="3"><input type="text" id="inputLine" placeholder="Enter your calculation here or use the buttons below"></td>   
+                <td><button class="buttonStyle"id="delete">Delete</button></td>
+            </tr>
+            <tr>        
+                <td><button class="buttonStyle" id="one">1</button></td>
+                <td><button class="buttonStyle" id="two">2</button></td>
+                <td><input type="submit" class="buttonStyle" value="Submit" id="submit"></td>
+                <td><input type="reset" class="buttonStyle" value="Reset" id="reset"></td>
+                
+            </tr>
+            <tr>        
+                <td><button class="buttonStyle" id="three">3</button></td>
+                <td><button class="buttonStyle" id="four">4</button></td>
+                <td><button class="buttonStyle" id="plus">+</button></td>
+                <td><button class="buttonStyle" id="minus">-</button></td>
+            </tr>
+                <td><button class="buttonStyle" id="five">5</button></td>
+                <td><button class="buttonStyle" id="six">6</button></td>
+                <td><button class="buttonStyle" id="multiply">*</button></td>
+                <td><button class="buttonStyle" id="divide">/</button></td>
+            </tr>
+            <tr>        
+                <td><button class="buttonStyle" id="seven">7</button></td>
+                <td><button class="buttonStyle" id="eight">8</button></td>
+                <td><button class="buttonStyle" id="nine">9</button></td>
+                <td><button class="buttonStyle" id="zero">0</button></td>
+
+            </tr>  
+        </table>
+    </form>
+    <div class="thankYouForUsingMe">
+        <img src="images/happy-calculator-school-supplies-kawaii-icon-imag-vector-19538712.jpg" alt="Congratulaion picture for using the calculator">
+        <p>Thank you for using my calculator!</p>
+    </div>
+    <script type="module" src="scripts/main.js"></script>
+</body>
+</html>

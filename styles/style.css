@@ -1,0 +1,73 @@
+html{
+    background-color: rgb(91, 91, 91);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav{
+    padding-top: 2px;
+    padding-bottom: 10px;
+    color: aliceblue;
+    background-color: rgb(224, 130, 76);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5rem;   
+}
+img {
+    width:150px;
+    height: 150px;
+    
+}
+table {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    display: table;
+    border-collapse: collapse;
+    td {
+        width: 60px; /* Breite der Tasten */
+        height: 60px; /* Höhe der Tasten */
+        text-align: center; 
+        vertical-align: middle;
+        border: 2px solid rgb(200, 200, 200); /* Leichte Umrandung */
+        border-radius: 8px; /* Abgerundete Ecken */
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+        box-sizing: border-box;
+        padding: 0;
+    }
+}
+.buttonStyle {
+    width: 100%; /* füllt die Zelle horizontal */
+    height: 100%; /* füllt die Zelle vertikal */
+    font-size: 1.5rem; 
+    border: none; 
+    box-shadow: inset 0px -2px 3px rgba(0, 0, 0, 0.3); 
+    cursor: pointer; /* Zeiger-Cursor beim Hover */
+    transition: background-color 0.3s, color 0.3s; /* Sanfter Übergang bei Hover */
+}
+.buttonStyle:hover {
+    background-color: rgb(224, 130, 76); 
+}
+
+input[type="text"]{
+    width: 100%;
+    height: 100%; 
+    font-size: 1.5rem;
+    border: none; 
+    box-shadow: inset 0px -2px 3px rgba(0, 0, 0, 0.3); 
+    cursor: pointer; 
+    transition: background-color 0.3s, color 0.3s;
+    text-align: center;
+}
+.thankYouForUsingMe {
+    margin-top: 5px;
+    font-size: 1.5rem;
+    display: none;
+    text-align: center;
+    color: aliceblue;
+    align-items: center; 
+    vertical-align: middle;
+    justify-content: center;
+    gap: 10px;
+}
+.thankYouForUsingMe img {
+    border-radius: 20px; 
+}
